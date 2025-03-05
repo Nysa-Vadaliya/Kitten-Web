@@ -1,9 +1,22 @@
+@font-face {
+  font-family: myfirstfont ;
+  src: url("Pink\ Line.otf");
+}
+
+.big-shoulders-stencil-<uniquifier> {
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 html {
   height: 100%;
   width: 100%;
 }
 body {
-  font-family: Tahoma, san-serif;
+  font-family: myfirstfont;
 }
 .little {
   width: 100px;
@@ -13,15 +26,17 @@ body {
 }
 .part1 {
   color: red;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Big Shoulders Stencil", sans-serif;
 }
 
 .part2 {
   color: blue;
-  font-family:'Courier New', Courier, monospace;
+  font-family:myfirstfont;
 }
 
 .part3 {
   color: green;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:myfirstfont;
 }
+
+
